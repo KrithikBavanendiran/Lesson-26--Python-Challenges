@@ -36,8 +36,6 @@ def pick():
                                 print("Silly goose that guess isn't in the range")
                                 time.sleep(.25)
                                 print("Please enter a number between 100 and 1")
-                        except:    
-                            print("I don't think that "+enter" is a number")  
                     if guess==number:
                         guessesTaken=str(guessesTaken)
                         print("Good job, {}! You guessed my number in {} guesses!".format(__name__, guessesTaken))
